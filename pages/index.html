@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icons/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>URL shortening</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul class="list-menu">
+                <li class="logo"> 
+                    <a href="">  
+                        <img src="../icons/logo.svg" alt=""> 
+                    </a> 
+                </li>
+                <li class="item-menu">
+                    <a href="#">Features</a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">Pricing</a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">Resources</a>
+                </li>
+            </ul>
+
+            <ul class="list-login-menu">
+                <li> 
+                    <a href="#" id="login">Login</a> 
+                </li>
+                <li> 
+                    <a href="#" id="sing-up">Sing Up</a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <section class="section-get-started">
+            <article class="article-text">
+                <h1>More than just <br> shorter links</h1>
+                <p>
+                    Build your brand's recognition and get detailed <br>
+                    insights on how your links are performing.
+                </p>
+                <button class="btn-started">Get Started</button>
+            </article>
+            <div class="container-img">
+                <img src="../icons/illustration-working.svg"  alt="" id="img-work">
+            </div>
+        </section>
+
+    <main>
+            <div class="content-search">
+                <input type="url" pattern="" placeholder="Shorten a link here..." id="input1">  
+                <button type="submit" class="shorted" onclick="enviar()" id="enviar2">Shorten It!</button>
+            </div>
+            
+                <section class="content-result">
+                     <div id="link"></div>
+                        <div class="space-result">
+                        <div id="resultado"></div>
+                        <button type="submit" id="btn-copy" onclick="copiar()">Copy</button>
+                    </div>
+            </section>
+        <section class="info">
+            <h1>Advanced Statics</h1>
+            <p>
+                Track how your links are performing across the web with <br>
+                our advanced statics dashboard
+            </p>
+        </section>
+
+            <div class="container-infos">
+                <div class="brand-recognition">
+                    <div class="content-img-brand">
+                        <img src="../icons/icon-brand-recognition.svg" alt="" id="brand">
+                    </div>
+                    <h3>Brand Recognition</h3>
+                    <p class="paragraph">
+                        Boost your brand recognition with <br>
+                        each clck. Generic links don't mean a <br>
+                        thing. Branded links help instil <br>
+                        confidence in your content.
+                    </p>
+                </div>
+
+                <div class="detailed-records">
+                    <div class="content-img-detailed">
+                        <img src="../icons/icon-detailed-records.svg" alt="">
+                    </div>
+
+                    <h2>Detailed Records</h2>
+                    <p class="paragraph">
+                        Gain insights into who is clicking your <br>
+                        links. Knowing when and where <br>
+                        people engage with your content <br>
+                        helps inform better decisions.
+                    </p>
+                </div>
+                <div class="fully-customized">
+                    <div class="content-img-fully">
+                        <img src="../icons/icon-fully-customizable.svg" alt="">
+                    </div>
+                    <h2>
+                        Fully Customizable
+                    </h2>
+                    <p class="paragraph">
+                        Improve brand awareness and <br>
+                        content discoverability through <br>
+                        customizable links, supercharging <br>
+                        audience engagement.
+                    </p>
+                </div>
+            </div>
+
+            <div class="boost-link">
+                <h1>
+                    Boost yout links today
+                </h1>
+
+                <button class="btn-started2">Get Started</button>
+            </div>
+    </main>
+
+    <footer>
+        <article>
+            <img src="../icons/logo.svg" alt="">
+        </article>
+
+        <article>
+            <h3>Features</h3>
+            <ul>
+                <li>
+                    <a href="#">Link Shortening</a>
+                </li>
+                <li>
+                    <a href="#">Branded Links</a>
+                </li>
+                <li>
+                    <a href="#">Analytics</a>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Resources</h3>
+            <ul>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Developers</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Company</h3>
+            <ul>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Our Team</a>
+                </li>
+                <li>
+                    <a href="#">Careers</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <a href="https://facebook.com" target="_blank">
+                <img src="../icons/icon-facebook.svg" alt="">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="../icons/icon-twitter.svg" alt="">
+            </a>
+            <a href="https://pinterest.com" target="_blank">
+                <img src="../icons/icon-pinterest.svg" alt="">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../icons/icon-instagram.svg" alt="">
+            </a>
+          
+         
+        </article>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
